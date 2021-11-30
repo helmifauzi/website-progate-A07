@@ -1,0 +1,91 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+    header {
+        height: 80px;
+        width: 1000px;
+        background-color: rgba(15, 185, 177, 1);
+        top: 0;
+        z-index: 10;
+      }
+    
+    
+    .lesson {
+      width: 50%;
+      margin-bottom: 50px;
+      text-align: center;
+    }
+    
+    .top-wrapper h1 {
+      font-size: 32px;
+    }
+    
+    .heading h2 {
+      font-size: 20px;
+    }
+    .message-wrapper {
+        text-align: center;
+    }
+    .message-wrapper h2 {
+        font-size: 20px;
+    }
+    .message-wrapper h2 {
+        font-size: 15px;
+    }
+  }
+  
+  /* Untuk Smartphone */
+  @media all and (max-width: 670px) {
+    
+    .container {
+        margin: auto;
+    }
+
+    header {
+        height: 80px;
+        width: 670px;
+    } 
+
+    .background-logo {
+        width: 500px;
+        height: 200px;
+        margin: auto;
+    }
+
+    .lesson {
+      width: 100%;
+      text-align: center;
+    }
+    
+    footer {
+      text-align: center;
+    }
+    
+        
+    .facebook {
+      margin-bottom: 10px;
+    }
+    
+    .top-wrapper {
+      text-align: center;
+    }
+    
+              
+    .top-wrapper h1 {
+      font-size: 24px;
+      line-height: 36px;
+    }
+    
+    .top-wrapper p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+    .message-wrapper {
+        text-align: center;
+    }
+    .message-wrapper h2 {
+        font-size: 15px;
+    }
+    .message-wrapper h2 {
+        font-size: 10px;
+    }
+  }
